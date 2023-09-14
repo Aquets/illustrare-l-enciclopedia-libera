@@ -1,0 +1,62 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#node-id {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 2px;
+  background-color: black;
+  color: white;
+}
+
+#legenda {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+#legenda p{
+  margin: 2px;
+  background-color: white;
+}
+
+#voce{
+  color: #71d1b3;
+  background-color: #71d1b3;
+  border-radius: 50%;
+}
+#immagine {
+  color: #f08d30;
+  background-color: #f08d30;
+  border-radius: 50%;
+}
+#utente{
+  color: #2fa1ea;
+  background-color: #2fa1ea;
+  border-radius: 50%;
+}
+
+#zoom-panel {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.zoom {
+  background-color: black;
+  padding: 5px;
+  margin: 2px;
+  text-align: center;
+}
+
+#network{
+transition: .3s;
+}
+
+#nodes:hover{
+  cursor: pointer;
+}
